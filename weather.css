@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.container{
+    background-color: #109D7D;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBox{
+    background-color: #70A597;
+    height: 65%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.searchBar{
+    margin-top: 70px;
+    margin-right: 90px;
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    padding: 15px;
+    background-color: #70A597;
+    color: #135443;
+    font-size: 15px;
+    border-bottom: 2px solid #135443;
+    font-weight: bolder;
+}
+
+.searchBtn{
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-left: 280px;
+    /* margin-bottom: 200px; */
+    margin-top: -39px;
+    background-color: #4ab99b;
+    box-shadow:2px 2px 2px #109D7D;
+}
+
+.searchBtn:hover{
+    background-color: #4b7a6e;
+    cursor: pointer;
+}
+
+.location{
+    margin-top: 50px;
+    color:white;
+}
+#celcius{
+    display: none;
+}
+.country{
+    display: none;
+}
+
+ .extraInfo{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+.temperature{
+    margin-right: 40px;
+}
+
+.error{
+    margin-top: -50px;
+}
+
+@media(max-width:1500px){
+    .contentBox{
+        width: 390px;
+    }
+}
+
+@media(max-width:415px){
+    .searchBar{
+        width: 150px;
+        padding: 10px;
+    }
+}
+
+@media(max-width:415px){
+    .searchBtn{
+        margin-right: 120px;
+    }
+}
+
+@media (max-width:415px){
+    .extraInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:340px){
+    .contentBox{
+        width: 200px;
+    }
+}
+
+@media(max-width:340px){
+    .searchBar{
+        width: 100px;
+        padding: 10px;
+    }
+}
+
+@media(max-width:340px){
+    .searchBtn{
+        margin-right: 150px;
+        width: 50px;
+        /* padding: 10px; */
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.cloud{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 580px;
+    margin-right: -200px;
+}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="container">
+        <div class="contentBox">
+            <h1 style="margin-top: -50px; color: #1e5446;">Weather</h1>
+            <div id="error" style="color: rgb(177, 33, 33); font-weight: bolder; font-size: 20px;" ></div>
+            <input type="text" placeholder="type your location..." class="searchBar cityName">
+            <button class="searchBtn">Search</button>
+            <h2 class="location" style="color:#2d7663;"></h2>
+            <div id="country" style="color:#2d7663;"></div>
+            <p style="margin-top: 20px; color: #2d7663;" id="clear" ></p>
+            <p style="margin-top: 10px; color: #2d7663;" id="clearSky" ></p>
+            <img src="" alt="" class="weatherImage">
+            <span class="temperature" style="margin-top: 50px; font-size: 60px; color: #2d7663;"></span>
+            <span style="font-size: 50px; color: #2d7663; margin-top: -65px; margin-right: -110px;" id="celcius">°C</span>
+            <div class="extraInfo">
+                <span id="wind" style="color:#2d7663"></span>
+                <span id="humidity" style="color:#2d7663"></span>
+                <span id="pressure" style="color:#2d7663"></span>
+                <!-- <span>Made</span> -->
+            </div>
+        </div>
+        <div class="desc" style="position: absolute; margin-top: 670px;">
+            <span style="color: #133d32;">Crafted with <span style="color: red;">&#10084;</span> by Akash</span>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
